@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html lang=”pt-br”>
+
+ <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Estudo Avançado CSS</title>
+  <meta name="description" content="Conteúdos sobre o estudo em CSS em um nível avançado.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/estilo.css">
+  
+ </head>
+
+ <body id="corpo-pagina-geral">
+  <script src="" async defer></script>
+
+  <!-- INÍCIO CABEÇALHO -->
+  <div id="corpo-cabecalho">
+
+    <h1 id="titulo-pagina">Estudo Sobre HTML e CSS - Especial </h1>
+
+  </div>
+  <!-- FIM CABEÇALHO -->
+
+  <!-- INÍCIO CONTEÚDO -->
+  <div id="corpo-conteudo">
+
+    <!-- NORMALIZE -->
+
+    <br>
+    <h2> Normalize CSS </h2>
+    <br>
+
+    <p> Usado para normalizar as configurações de estilo para diversos 
+      navegadores. </p>
+    <br>
+
+    <p> Link para acessar: <a href="https://necolas.github.io/normalize.css/">NORMALIZE</a> </p>
+    <br>
+
+    <br>
+    <h2> Box Sizing e Cantos Arredondados </h2>
+    <br>
+
+    <p> • "border-radius:" = aplica borda nos elementos [ já utilizamos ]</p>
+    <br>
+
+    <p> • "box-sizing: border-box" = aplica no elemento exatamente o 
+      tamanho definido, não acrescentando medidas de "padding"  </p>
+    <br>
+
+    <!-- GRADIENTES E TRANSPARENCIA -->
+
+    <br>
+    <h2> Degradê e Transparência </h2>
+    <br>
+
+    <p> Link para acessar Cores RGB: 
+      <a href="https://www.w3schools.com/css/css_colors.aps">W3 Schools - Cores RGB </a> </p>
+    <br>
+
+    <div class="caixa-transparencia">
+
+      <h2> Como usar Transparência </h2><br>
+      <p> Aqui vemos um exemplo de exemplo de como podemos utilizar
+        a transparencia em elementos. </p><br>
+      <p> Utilizamos o atributo: <br> " background: rgba( 0, 0, 0, 0.1 ) " </p>
+
+    </div>
+    <br>
+
+    <p> Link para acessar Gradientes: 
+      <a href="https://www.w3schools.com/css/css3_gradients.aps">W3 Schools - Gradientes </a> </p>
+    <br>
+
+    <div class="caixa-gradiente">
+
+      <h2> Como usar Gradiente </h2><br>
+      <p> Aqui vemos um exemplo de exemplo de como podemos utilizar
+        gradiente em elementos. </p><br>
+      <p> Utilizamos o atributo <br> " background: linear-gradiente ( color1 , color2 ) " </p><br>
+      <p> Utilizamos o atributo <br> " background: radial-gradiente ( color1 , color2 ) " </p><br>
+
+    </div>
+
+    <!-- SOMBRAS -->
+
+    <br>
+    <h2> Sombras </h2>
+    <br><br>
+
+    <div class="caixa-sombras">
+
+      <h2> Como usar Sombras </h2><br>
+      <p> Simulando exemplos de como aplicar sombras nos elementos </p><br>
+      <p> Usamos o atributo: <br>
+      " text-shadow: 2px 1px 5px #000; " </p><br>
+      <p> Os dois primeiros valores definem posição </p>
+      <p> O Terceiro valor define o "borrado" da Sompra </p>
+      <p> Podemos também usar o RGBA para refinir uma transparência </p><br>
+      <p> Podemos aplicar sombra das DIVs com o Atributo: <br>
+      " box-shadow: 2px 1px 5px #000; " </p>
+
+    </div>
+
+    <!-- ANIMAÇÕES -->
+
+    <br><br><br>
+    <h2> Animações </h2>
+    <br>
+
+    <div class="caixa-animacoes">
+
+      <h2> Animações em CSS3 </h2><br>
+      <p> Em animações em CSS são possibilidades de ir de uma formatação 
+        específica para outra formação. </p><br>
+
+      <p> Para usar animação precisamos usar o "@keyframe" na folha de
+        estilo do projeto </p><br>
+
+      <p> Exemplo:</p>
+      <b>
+        <p> @keyframe "nome da animação" {  <br> from {} <br> to{} <br> } </p>
+      </b>
+      <br>
+
+      <p> No objeto da animação devemos colocar: </p><br>
+      <b>
+        <p> animation-name: "nome da animação" ; </p>
+        <p> animation-duration: 1s ; </p>
+        <p> animation-delay: 1s ; </p>
+        <p> animation-iteration-count: 10 ; </p>
+        <p> animation-direction: alternate; </p>
+      </b>
+      <br>
+
+      <b>
+        <p>OBS:. verificar os pré fixos dos Browsers </p>
+      </b>
+
+    </div>
+
+    <!-- TRANSIÇÕES -->
+
+    <br>
+    <h2> Transições </h2>
+    <br>
+
+    <div class="caixa-transicoes">
+
+      <h2> Usando Transições </h2><br>
+
+      <p> Para usarmos transições precisamos utilizar  os estados de
+        cada elemento ( hover, e etc ) </p>
+      <p> Desta forma, definimos atributos para o elemento em estado
+        padrão, e logo após, os atributos nos estados definidos. </p>
+      <br>
+      <p> Dentro dos estados definido ( Ex. Hover ), incluimos o atributo
+        " transition: all 3s; " ou podemos definir quais propriedades
+        farão parte da transição. </p><br>
+
+      <b>
+        <p>OBS:. verificar os pré fixos dos Browsers </p>
+      </b>
+
+    </div>
+
+    <!-- NOVAS TAGS DO HTML5 -->
+
+    <br>
+    <h2> Novas TAGs do HTML5 </h2>
+    <br>
+
+    <p> <b>HEADER:</b> TAG de Cabeçalho. </p>
+    <p> <b>NAV:</b> TAG de Navegação. </p>
+    <p> <b>FOOTER:</b> TAG de Rodapé. </p>
+    <p> <b>ARTICLE:</b> TAG de Postagens, Artigos. </p>
+    <p> <b>SECTION:</b> TAG de Seções para separar conteúdos. </p>
+    <p> <b>TIME:</b> TAG para definir tempo ( data, horários ). </p>
+    <p> <b>ASIDE:</b> TAG para definir aréas laterias no projeto. </p>
+    <br>
+    <p> <b>COMPATIBILIDADE DAS TAGS: </b> Pesquisar sobre "HTML5 SHIV" </p><br>
+    <b><p>LINKS ÚTEIS: <a href="https://github.com/aFarkas/html5shiv">GitHub aFarkas</a></p></b><br>
+    <p> Incluir o Script na TAG Head do Projeto.</p>
+    <p> Criar um arquivos JS do HTML5 Shiv no Diretório do projeto. </p>
+    <p> Copiar Código do Arquivo "html5shiv.min.js" da Pasta "DIST".</p>
+    <br>
+
+    <br>
+    <h2> Novas TAGs do HTML5 - "INPUT" </h2>
+    <br>
+
+    <form action="">
+
+      <label for="nome"><b>Nome</b></label>
+      <input type="text" name="nome" required>
+      <p> <b>type="text" required autofocus </b> = TAG de Texto Comum obrigatório. </p><br>
+      <hr><br>
+
+      <label for="email"><b>E-mail</b></label>
+      <input type="email" name="email" required>
+      <p> <b>type="email" required </b> = TAG de E-mail obrigatório. </p><br>
+      <hr><br>
+
+      <label for="numero"><b>Número</b></label>
+      <input type="number" name="numero" min="1" max="10">
+      <p> <b>type="number" min="0" max="10"</b> = TAG de Número com valores Mínimos e Máximos </p><br>
+      <hr><br>
+
+      <label for="url"><b>URL</b></label>
+      <input type="url" name="url" placeholder="Ex: https://www...">
+      <p> <b>type="url" placeholder="Ex: https://www... " </b> = TAG de URLs </p><br>
+      <hr><br>
+
+      <label for="pesquisa"><b>Pesquisa</b></label>
+      <input type="search" name="pesquisa">
+      <p> <b>type="search"</b> = TAG de Pesquisa. </p><br>
+      <hr><br>
+
+      <label for="range"><b>Range</b></label>
+      <input type="range" name="range" min="1" max="20" value="10">
+      <p> <b>type="range" min="1" max="20" value="10" </b> = TAG de Range de Seleção </p>
+      <p> Dependendo do Browser não é possível usá-lo</p><br>
+      <hr><br>
+
+      <label for="data"><b>Data</b></label>
+      <input type="date" name="data">
+      <p> <b>type="date"</b> = TAG de Seleção de Datas </p>
+      <p> Dependendo do Browser não é possível usá-lo </p>
+      <p> Atualmente é mais viável realizar essa operação com JS. </p><br>
+      <hr><br>
+      
+      <label for="cor"><b>Cor</b></label>
+      <input type="color" name="cor">
+      <p> <b>type="color"</b> = TAG para Seleção de Cores </p>
+      <p> Atualmente é mais viável realizar essa operação com JS. </p><br>
+      <hr><br>
+
+      <input type="submit" name="Enviar" id="Enviar" value="Enviar">
+      <p> <b>type="submit"</b> = TAG botão enviar informações do Formulário. </p><br>
+
+    </form>
+    <hr><br>
+
+    <br>
+    <h2> Flexbox - No Container </h2>
+    <br>
+
+    <p> Novo modo de Layout, para organizar os elementos dentro do Container
+      de forma mais simples. </p><br>
+
+    <p> Atributo = " <b>display: flex ; "</b> </p><br>
+
+    <p> " <b>flex-direction: row-reverse ; </b> " ou " <b> row / column / row-reserve / column-reverse </b> " </p>
+    <p> Alinha os itens em Colunas ou em Linhas </p><br>
+
+    <p> " <b>flex-wrap: nowrap</b>" ou " <b>wrap</b> "</p>
+    <p>Define se os itens vão quebrar para a próxima linha ou não. </p><br>
+
+    <p> " <b> justify-content: flex-end </b> " ou " <b> flex-start / flex-end / center / space-between / space-around </b> " </p>
+    <p> Ajusta os itens ( na horizontal ) de acordo com o espaçamento do Container </p><br>
+
+    <p> " <b> align-itens: center </b> " ou " <b> stretch / center / flex-start / flex-end / baseline </b> " </p>
+    <p> Ajusta os itens ( na vertical ) de acordo com o espaçamento do Conteiner </p><br>
+
+    <br>
+    <h2> Flexbox - Nos Itens </h2>
+    <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>  
+  <br><br><br><br><br>
+  <!-- FIM CONTEÚDO -->
+
+ </body>
+ 
+</html>
